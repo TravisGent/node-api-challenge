@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 -   [ ] Mention two parts of Express that you learned about this week.
 
+Routing and Middleware. Routing is where you lead to different pages of code for better organization and for specific things to happen based on where the website path goes. Middleware functions take a request, do something to it, then send it on it's way.
+
 -   [ ] Describe Middleware?
+
+Middleware functions take a request, do something to it, then send it on it's way. It is like a car assembly line, one person put on the wheel of the car while another person might install the airbag. It goes down the line until you eventually have a completed car.
 
 -   [ ] Describe a Resource?
 
+A message displayed to the user after they preform CRUD operations.
+
 -   [ ] What can the API return to help clients know if a request was successful?
 
+Status Code 200, 204. You can also send a message with the status code. Or you could also return the data in the request to them.
+
 -   [ ] How can we partition our application into sub-applications?
+
+sqlite3 helps us with this, routing with express helps with this. Knex helps with this. 
 
 ## Minimum Viable Product
 
